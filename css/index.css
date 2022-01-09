@@ -1,0 +1,132 @@
+header {
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #999;
+  position: absolute;
+  top: 0;
+}
+
+header > .inner {
+  height: 160px;
+  background-color: #fff;
+}
+
+/* sub-menu */
+header .sub-menu {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+header .sub-menu ul.menu {
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+
+header .sub-menu ul.menu li {
+  list-style-type: none;
+  position: relative;
+}
+
+header .sub-menu ul.menu li:nth-child(2)::after {
+  content: "";
+  width: 1px;
+  height: 12px;
+  background-color: #e4e8eb;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
+header .sub-menu ul.menu li a {
+  display: flex;
+  font-size: 12px;
+  padding: 3px 5px;
+  align-items: center;
+}
+
+header .sub-menu ul.menu li a:hover {
+  text-decoration: underline;
+}
+
+header .sub-menu ul.menu li a:hover > p {
+  text-decoration: none;
+}
+
+header .sub-menu ul.menu li a p {
+  font-size: 16px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 4px;
+}
+
+/* logo */
+header a.logo {
+  position: absolute;
+  top: 49px;
+  left: 0;
+  margin: auto 0;
+}
+
+header div.search {
+  border: 2px solid #19ce60;
+  width: 586px;
+  height: 56px;
+  position: absolute;
+  top:50px;
+  left: 230px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+header div.search input {
+  width: 474px;
+  border: none;
+  font-size: 20px;
+  padding: 13px 15px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  outline: none;
+}
+
+header div.search button.keyboard {
+  position: absolute;
+  right: 100px;
+  width: 36px;
+  height: 56px;
+  border: none;
+  background-color: #fff;
+  color: rgb(184, 183, 183);
+}
+
+header div.search button.arrow-dropdown {
+  position: absolute;
+  right: 80px;
+  width: 22px;
+  height: 56px;
+  border: none;
+  background-color: #fff;
+  color: #15c654;
+}
+
+header div.search button.btn {
+  border: none;
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  box-sizing: border-box;
+  top: 0px;
+  right: 0px;
+  line-height: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header div.search button.btn .search {
+  font-size: 36px;
+}

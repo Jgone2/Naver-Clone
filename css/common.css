@@ -1,0 +1,31 @@
+/* COMMON */
+body {
+  color: #404040;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #404040;
+}
+
+.inner {
+  width: 1130px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.btn {
+  border: 1px solid #15c654;
+  background-color: #19ce60;
+  color: #fff;
+}
+
+/* footer */
