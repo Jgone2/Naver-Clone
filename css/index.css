@@ -1,3 +1,4 @@
+/* header */
 header {
   width: 100%;
   background-color: #fff;
@@ -138,6 +139,7 @@ header nav {
 header nav div.inner {
   height: 30px;
   padding: 11px;
+  width: 1118px;
   padding-left: 0;
   font-size: 15px;
   line-height: 20px;
@@ -162,8 +164,16 @@ header nav div.inner ul.menu li:nth-child(-n+7) a {
 
 header nav div.inner div.scroll-panel {
   position: absolute;
-  right: 0;
+  right: 5px;
   height: inherit;
-  width: 300px;
+  width: 280px;
   background-color: #19ce60;
+}
+
+/* section */
+section.inner {
+  height: 700px;
+  position: relative;
+  top: 215px;
+  background-color: ivory;
 }
