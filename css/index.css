@@ -76,7 +76,7 @@ header div.search {
   width: 586px;
   height: 56px;
   position: absolute;
-  top:50px;
+  top: 50px;
   left: 230px;
   display: flex;
   align-items: center;
@@ -133,13 +133,16 @@ header div.search button.btn .search {
 }
 
 header nav {
+  display: flex;
+  align-content: center;
   border-top: 1px solid #999;
 }
 
 header nav div.inner {
-  height: 30px;
+  height: 52px;
+  box-sizing: border-box;
   padding: 11px;
-  width: 1118px;
+  width: 1130px;
   padding-left: 0;
   font-size: 15px;
   line-height: 20px;
@@ -154,17 +157,20 @@ header nav div.inner ul.menu {
   padding-left: 0;
 }
 
-header nav div.inner ul.menu li{
+header nav div.inner ul.menu li {
   padding: 5px 7px;
 }
 
-header nav div.inner ul.menu li:nth-child(-n+7) a {
-  color: #03C75A;
+header nav div.inner ul.menu li:nth-child(-n + 7) a {
+  color: #03c75a;
 }
 
 header nav div.inner div.scroll-panel {
+  display: flex;
+  text-align: center;
+  justify-content: flex-end;
   position: absolute;
-  right: 5px;
+  right: 0px;
   height: inherit;
   width: 280px;
   background-color: #19ce60;
@@ -172,8 +178,43 @@ header nav div.inner div.scroll-panel {
 
 /* section */
 section.inner {
+  display: flex;
+  justify-content: space-between;
   height: 700px;
+  box-sizing: border-box;
   position: relative;
-  top: 215px;
+  top: 225px;
   background-color: ivory;
+  margin-right: 72px;
+  margin-left: 72px;
+}
+
+section article#left {
+  display: flex;
+  justify-content: center;
+  padding-right: 15px;
+  height: inherit;
+  flex-grow: 2;
+  background-color: aqua;
+}
+
+section article#left div#left-Ads {
+  width: 100%;
+  height: 135px;
+  background-image: url(https://ssl.pstatic.net/tveta/libs/1378/1378577/7448b27e32637ed51ad5_20220203230936597.png);
+  background-size: cover;
+}
+
+section article#right {
+  height: inherit;
+  flex-grow: 1;
+  background-color: tomato;
+  padding-left: 15px;
+}
+
+section article#right div#login-box {
+  width: 100%;
+  height: 135px;
+  background-color: #f7f9fa;
+  border: 1px solid #DAE1E6;
 }
