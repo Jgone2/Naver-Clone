@@ -183,7 +183,6 @@ section.inner {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 700px;
   box-sizing: border-box;
   position: relative;
   top: 235px;
@@ -198,22 +197,54 @@ section article.lr-article > div:first-child {
   margin-top: 0;
 }
 
-section article div.section-left {
+section article#left-section {
   width: 750px;
 }
 
-section article div.section-right {
+section article#right-section {
   width: 350px;
 }
 
-section div#main-ads {
+/* left-section */
+section article#left-section div#main-ads {
   width: 750px;
   height: 135px;
   background-image: url(https://ssl.pstatic.net/tveta/libs/1378/1378028/ce71e35cfed6aeb7378f_20220204155459014.jpg);
   background-size: cover;
 }
 
-section div#login-box {
+section article#left-section div#news-header {
+  height: 50px;
+  background-color: #505050;
+}
+
+section article#left-section div#news-title {
+  height: 55px;
+  background-color: aqua;
+}
+
+section article#left-section div#news-list {
+  height: 260px;
+  background-color: chocolate;
+}
+
+section article#left-section div#theme-title {
+  height: 35px;
+  background-color: darkolivegreen;
+}
+
+section article#left-section div#theme-title {
+  height: 50px;
+  background-color: khaki;
+}
+
+section article#left-section div#theme-post {
+  height: 2370px;
+  background-color: mediumslateblue;
+}
+
+/* right-section */
+section article#right-section div#login-box {
   width: 350px;
   height: 135px;
   background-color: #f7f9fa;
@@ -222,13 +253,13 @@ section div#login-box {
   padding: 16px 16px 12px 17px;
 }
 
-section div#login-box p#login-msg {
+section article#right-section div#login-box p#login-msg {
   color: grey;
   width: 70%;
   font-size: 0.9em;
 }
 
-section div#login-box a.btn {
+section article#right-section div#login-box a.btn {
   display: flex;
   margin-top: 10px;
   padding: 15px;
@@ -240,7 +271,7 @@ section div#login-box a.btn {
   line-height: 16px;
 }
 
-section div#login-box a.btn img#loginBtn-logo {
+section article#right-section div#login-box a.btn img#loginBtn-logo {
   height: 16px;
   margin-right: 5px;
 }
@@ -296,21 +327,6 @@ section
   padding-right: 7px;
 }
 
-section article#left-section div#news-header {
-  height: 50px;
-  background-color: #505050;
-}
-
-section article#left-section div#news-title {
-  height: 55px;
-  background-color: aqua;
-}
-
-section article#left-section div#news-list {
-  height: 260px;
-  background-color: chocolate;
-}
-
 section article#right-section div#card-news {
   height: 50px;
   background-color: dodgerblue;
@@ -320,4 +336,14 @@ section article#right-section div#right-ads {
   height: 200px;
   background-image: url(https://ssl.pstatic.net/tveta/libs/1376/1376020/de8b5f665d4c3546ca71_20220117150105704.jpg);
   background-size: cover;
+}
+
+section article#right-section div#shop-header {
+  height: 45px;
+  background-color: tomato;
+}
+
+section article#right-section div#shop {
+  height: 1495px;
+  background-color: yellowgreen;
 }
