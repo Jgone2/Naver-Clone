@@ -181,12 +181,29 @@ header nav div.inner div.scroll-panel {
 /* section */
 section.inner {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   height: 700px;
   box-sizing: border-box;
   position: relative;
-  top: 225px;
-  background-color: ivory;
+  top: 235px;
+  /* background-color: ivory; */
+}
+
+section article.lr-article div {
+  margin: 12px 0;
+}
+
+section article.lr-article > div:first-child {
+  margin-top: 0;
+}
+
+section article div.section-left {
+  width: 750px;
+}
+
+section article div.section-right {
+  width: 350px;
 }
 
 section div#main-ads {
@@ -228,7 +245,7 @@ section div#login-box a.btn img#loginBtn-logo {
   margin-right: 5px;
 }
 
-section div#login-box div#sub-area {
+section article#right-section div#login-box div#sub-area {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -238,23 +255,24 @@ section div#login-box div#sub-area {
   font-size: 11px;
 }
 
-section div#login-box div#sub-area .material-icons {
+section article#right-section div#login-box div#sub-area .material-icons {
   color: rgb(175, 175, 175);
   font-size: 15px;
   margin-right: 3px;
 }
 
-section div#login-box div#sub-area div {
+section article#right-section div#login-box div#sub-area div {
   display: flex;
   justify-content: center;
   line-height: 16px;
 }
 
-section div#login-box div#sub-area div a.login-sub:hover {
+section article#right-section div#login-box div#sub-area div a.login-sub:hover {
   text-decoration: underline;
 }
 
 section
+  article#right-section
   div#login-box
   div#sub-area
   div#info-search
@@ -269,6 +287,37 @@ section
   right: 278px;
 }
 
-section div#login-box div#sub-area div#info-search a.login-sub:nth-child(2) {
+section
+  article#right-section
+  div#login-box
+  div#sub-area
+  div#info-search
+  a.login-sub:nth-child(2) {
   padding-right: 7px;
+}
+
+section article#left-section div#news-header {
+  height: 50px;
+  background-color: #505050;
+}
+
+section article#left-section div#news-title {
+  height: 55px;
+  background-color: aqua;
+}
+
+section article#left-section div#news-list {
+  height: 260px;
+  background-color: chocolate;
+}
+
+section article#right-section div#card-news {
+  height: 50px;
+  background-color: dodgerblue;
+}
+
+section article#right-section div#right-ads {
+  height: 200px;
+  background-image: url(https://ssl.pstatic.net/tveta/libs/1376/1376020/de8b5f665d4c3546ca71_20220117150105704.jpg);
+  background-size: cover;
 }

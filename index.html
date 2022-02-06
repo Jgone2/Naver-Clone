@@ -112,33 +112,43 @@
     </header>
 
     <section class="inner">
-      <div id="main-ads"></div>
-      <div id="login-box">
-        <p id="login-msg">네이버를 더 안전하고 편리하게 이용하세요</p>
-        <a
-          class="btn"
-          href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com"
-        >
-          <!-- <span class="hidden">NAVER</span> 로그인 -->
-          <img
-            id="loginBtn-logo"
-            src="./img/loginBtnLogo.png"
-            alt="login-btn-logo"
-          />로그인
-        </a>
-        <div id="sub-area">
-          <div id="info-search">
-            <p class="material-icons">lock</p>
-            <a class="login-sub" href="#">아이디</a>
-            <a class="login-sub" href="#">비밀번호찾기</a>
-          </div>
+      <article id="left-section" class="lr-article">
+        <div id="main-ads" class="section-left"></div>
+        <div id="news-header" class="section-left"></div>
+        <div id="news-title" class="section-left"></div>
+        <div id="news-list" class="section-left"></div>
+      </article>
 
-          <div id="sign-up">
-            <p class="material-icons">person</p>
-            <a class="login-sub" href="#">회원가입</a>
+      <article id="right-section" class="lr-article">
+        <div id="login-box" class="section-right">
+          <p id="login-msg">네이버를 더 안전하고 편리하게 이용하세요</p>
+          <a
+            class="btn"
+            href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com"
+          >
+            <img
+              id="loginBtn-logo"
+              src="./img/loginBtnLogo.png"
+              alt="login-btn-logo"
+            />로그인
+          </a>
+          <div id="sub-area">
+            <div id="info-search">
+              <p class="material-icons">lock</p>
+              <a class="login-sub" href="#">아이디</a>
+              <a class="login-sub" href="#">비밀번호찾기</a>
+            </div>
+
+            <div id="sign-up">
+              <p class="material-icons">person</p>
+              <a class="login-sub" href="#">회원가입</a>
+            </div>
           </div>
         </div>
-      </div>
+
+        <div id="card-news" class="section-right"></div>
+        <div id="right-ads"></div>
+      </article>
     </section>
   </body>
 </html>
