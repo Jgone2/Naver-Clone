@@ -23,6 +23,11 @@ a {
   position: relative;
 }
 
+/* .hidden {
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} */
+
 .btn {
   border: 1px solid #15c654;
   background-color: #19ce60;

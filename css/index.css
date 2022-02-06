@@ -16,7 +16,7 @@ header > .inner {
 /* sub-menu */
 header .sub-menu {
   position: absolute;
-  top: 0px;
+  top: 15px;
   right: 0px;
 }
 
@@ -169,13 +169,13 @@ header nav div.inner ul.menu li:nth-child(-n + 7) a {
 
 header nav div.inner div.scroll-panel {
   display: flex;
-  text-align: center;
+  align-items: center;
   justify-content: flex-end;
   position: absolute;
   right: 0px;
   height: inherit;
   width: 280px;
-  background-color: #19ce60;
+  word-spacing: 15px;
 }
 
 /* section */
@@ -187,36 +187,88 @@ section.inner {
   position: relative;
   top: 225px;
   background-color: ivory;
-  margin-right: 72px;
-  margin-left: 72px;
 }
 
-section article#left {
-  display: flex;
-  justify-content: center;
-  padding-right: 15px;
-  height: inherit;
-  flex-grow: 2;
-  background-color: aqua;
-}
-
-section article#left div#left-Ads {
-  width: 100%;
+section div#main-ads {
+  width: 750px;
   height: 135px;
-  background-image: url(https://ssl.pstatic.net/tveta/libs/1367/1367009/52f021a294215c7005d0_20220204111248369.jpg);
+  background-image: url(https://ssl.pstatic.net/tveta/libs/1378/1378028/ce71e35cfed6aeb7378f_20220204155459014.jpg);
   background-size: cover;
 }
 
-section article#right {
-  height: inherit;
-  flex-grow: 1;
-  background-color: tomato;
-  padding-left: 15px;
-}
-
-section article#right div#login-box {
-  width: 100%;
+section div#login-box {
+  width: 350px;
   height: 135px;
   background-color: #f7f9fa;
   border: 1px solid #dae1e6;
+  box-sizing: border-box;
+  padding: 16px 16px 12px 17px;
+}
+
+section div#login-box p#login-msg {
+  color: grey;
+  width: 70%;
+  font-size: 0.9em;
+}
+
+section div#login-box a.btn {
+  display: flex;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 800;
+  align-content: center;
+  justify-content: center;
+  line-height: 16px;
+}
+
+section div#login-box a.btn img#loginBtn-logo {
+  height: 16px;
+  margin-right: 5px;
+}
+
+section div#login-box div#sub-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #505050;
+  margin-top: 10px;
+  height: 16px;
+  font-size: 11px;
+}
+
+section div#login-box div#sub-area .material-icons {
+  color: rgb(175, 175, 175);
+  font-size: 15px;
+  margin-right: 3px;
+}
+
+section div#login-box div#sub-area div {
+  display: flex;
+  justify-content: center;
+  line-height: 16px;
+}
+
+section div#login-box div#sub-area div a.login-sub:hover {
+  text-decoration: underline;
+}
+
+section
+  div#login-box
+  div#sub-area
+  div#info-search
+  a.login-sub:nth-child(2)::after {
+  content: "";
+  width: 3px;
+  height: 3px;
+  background-color: #d3d3d3;
+  border-radius: 50%;
+  position: absolute;
+  top: 106px;
+  right: 278px;
+}
+
+section div#login-box div#sub-area div#info-search a.login-sub:nth-child(2) {
+  padding-right: 7px;
 }
