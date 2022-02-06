@@ -2,7 +2,8 @@
 header {
   width: 100%;
   background-color: #fff;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #dae1e6;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
   position: absolute;
   top: 0;
 }
@@ -135,7 +136,8 @@ header div.search button.btn .search {
 header nav {
   display: flex;
   align-content: center;
-  border-top: 1px solid #999;
+  border-top: 1px solid #dae1e6;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
 }
 
 header nav div.inner {
@@ -201,7 +203,7 @@ section article#left {
 section article#left div#left-Ads {
   width: 100%;
   height: 135px;
-  background-image: url(https://ssl.pstatic.net/tveta/libs/1378/1378577/7448b27e32637ed51ad5_20220203230936597.png);
+  background-image: url(https://ssl.pstatic.net/tveta/libs/1367/1367009/52f021a294215c7005d0_20220204111248369.jpg);
   background-size: cover;
 }
 
@@ -216,5 +218,5 @@ section article#right div#login-box {
   width: 100%;
   height: 135px;
   background-color: #f7f9fa;
-  border: 1px solid #DAE1E6;
+  border: 1px solid #dae1e6;
 }
