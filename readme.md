@@ -4,8 +4,8 @@
 
 - [x] Header 제작
 
-![](./img/220109navercloneDo.png)
-<br />
+![](./img/220109navercloneDo.png)<br />
+---
 220206 - 전체 레이아웃 제작<br />
 
 - [x] Nav-bar 제작
@@ -14,3 +14,4 @@
 - [x] 오른쪽 Ad박스 제작
 
 ![](./img/Layout.png)<br />
+---
